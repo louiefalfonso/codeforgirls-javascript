@@ -1,6 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
+
 import MainLogo from './images/logo.png';
+import MediumLogo from './images/logo-m.png';
+import Navbar from './Navbar';
 
 class MainHeader extends Component {
     render() {
@@ -9,21 +13,13 @@ class MainHeader extends Component {
                 <div className="navbar navbar-inverse hidden-sm hidden-xs">
                     <div className="container">
                         <div className="navbar-header">
-                        <a className="navbar-brand" href="index.html"><img src={MainLogo} alt="Logo"/></a>
+                        <Link to="/" className="navbar-brand"><img src={MainLogo} alt="Logo"/></Link>
                         </div>
-                        <div className="collapse navbar-collapse navbar-right">
-                            <ul className="nav navbar-nav">
-                                <li className="active"><a href="#">Home</a></li>
-                                <li className="dropdown"><a href="#">About Us</a></li>
-                                <li className="dropdown"><a href="#">Services</a></li>
-                                <li className="dropdown"><a href="#">Teams</a></li>
-                                <li className="dropdown"><a href="#">Gallery</a></li>
-                                <li className="dropdown"><a href="#">FAQ</a></li>
-                                <li className="dropdown"><a href="#">Pricing</a></li>
-                                <li className="dropdown"><a href="#">Contact Us</a></li>
-                            </ul>
-                        </div>
+                        <Navbar/>
                     </div> 
+                </div>
+                <div class="navbar-header inline-block visible-sm visible-xs">
+                   <Link to="/" className="navbar-brand"><img src={MediumLogo} alt="Logo"/></Link>
                 </div>
             </div>
         );

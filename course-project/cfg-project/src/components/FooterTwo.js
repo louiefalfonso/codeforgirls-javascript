@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import FooterLogo from './images/footer-logo.png';
+import { Link } from "react-router-dom";
 
 class FooterTwo extends Component {
     render() {
@@ -8,7 +9,7 @@ class FooterTwo extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-4">
-                            <div className="caption"><img src={FooterLogo} alt=""/></div>
+                            <div className="caption"><Link to="/"><img src={FooterLogo} alt=""/></Link></div>
                         </div>
                         <div className="col-md-4 col-sm-6">
                             <div className="contact-wrapper">

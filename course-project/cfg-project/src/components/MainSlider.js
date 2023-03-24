@@ -1,6 +1,5 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-/* eslint-disable jsx-a11y/anchor-has-content */
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 
 class MainSlider extends Component {
     render() {
@@ -17,7 +16,7 @@ class MainSlider extends Component {
                                             <p className="small-text" data-animation="animated fadeInDown">If the unpredictable British weather isn't enough to counter your <br/> desire to work outside, gardening is a great industry to get <br/> involved in.</p>
                                         </div>
                                         <div className="link-button" data-animation="animated fadeInUp">
-                                            <a href="#" className="btn btn-primary">Our Services</a>
+                                        <Link to="/services" className="btn btn-primary">Our Services</Link>
                                         </div>
                                     </div>
                             </div>
@@ -28,10 +27,10 @@ class MainSlider extends Component {
                                     <div className="guard">
                                         <p className="small-text" data-animation="animated fadeInLeft">If the unpredictable British weather isn't enough to counter your <br/> desire to work outside, gardening is a great industry to get <br/> involved in.</p>
                                     </div>
-                                <div className="link-button" data-animation="animated fadeInUp">
-                                    <a href="#" className="btn btn-primary">Our Services</a>
+                                    <div className="link-button" data-animation="animated fadeInUp">
+                                    <Link to="/services" className="btn btn-primary">Our Services</Link>
+                                    </div>
                                 </div>
-                            </div>
                             </div>
                             <div className="item">
                                 <div className="slider-three"></div>
@@ -41,9 +40,9 @@ class MainSlider extends Component {
                                         <p className="small-text" data-animation="animated fadeInRight">If the unpredictable British weather isn't enough to counter your <br/> desire to work outside, gardening is a great industry to get <br/> involved in.</p>
                                     </div>
                                     <div className="link-button" data-animation="animated fadeInUp">
-                                        <a href="#" className="btn btn-primary">Our Services</a>
+                                    <Link to="/services" className="btn btn-primary">Our Services</Link>
+                                    </div>
                                 </div>
-                            </div>
                             </div>
                         </div> 
                         <a className="left carousel-control" href="#main-slider-carousel" role="button" data-slide="prev"><i className="fa fa-angle-left" aria-hidden="true"></i></a>
