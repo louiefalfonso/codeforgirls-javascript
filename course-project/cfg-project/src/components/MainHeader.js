@@ -18,7 +18,7 @@ class MainHeader extends Component {
                         <Navbar/>
                     </div> 
                 </div>
-                <div class="navbar-header inline-block visible-sm visible-xs">
+                <div className="navbar-header inline-block visible-sm visible-xs">
                    <Link to="/" className="navbar-brand"><img src={MediumLogo} alt="Logo"/></Link>
                 </div>
             </div>

@@ -21,7 +21,7 @@ import FAQ from "./components/Faq";
 import Pricing from "./components/Pricing";
 import ContactUs from "./components/Contactus";
 import OffCanvasView from './components/OffCanvasView';
-import TopArrow from './components/TopArrow';
+
 
 function App() {
   return (
@@ -39,7 +39,6 @@ function App() {
       </Routes>
       <MainFooter/>
       <OffCanvasView/>
-      <TopArrow/>
     </div>
   );
 }
