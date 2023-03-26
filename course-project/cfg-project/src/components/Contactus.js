@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
+import ContactUsContent from './ContactUsContent';
+import ContactUsHeader from './ContactUsHeader';
+import SubscribeSection from './SubscribeSection';
 
 class Contactus extends Component {
     render() {
         return (
-            <div>
-                <h2>Contact Us Page</h2>
-            </div>
+            <div className="contactPage">
+                <ContactUsHeader/>
+                <div className="contact-section section-padding">
+                    <ContactUsContent/>
+                </div>
+                <SubscribeSection/>
+            </div>  
         );
     }
 }
