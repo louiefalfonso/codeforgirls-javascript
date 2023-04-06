@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 class OffCanvasView extends Component {
     render() {
         return (
-            <div>
+            <>
                 <span className="menu-toggle visible-xs visible-sm"><i className="fa fa-bars" aria-hidden="true"></i></span>
                 <div id="offcanvas-menu" className="visible-xs visible-sm"> 
                     <span className="close-menu"><i className="fa fa-times" aria-hidden="true"></i></span>
@@ -19,7 +19,7 @@ class OffCanvasView extends Component {
                         <li><Link to="/contactus">Contact Us</Link></li>
                     </ul>      
                 </div>   
-            </div>
+            </>
         );
     }
 }

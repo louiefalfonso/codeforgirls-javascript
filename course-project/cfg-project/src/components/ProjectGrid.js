@@ -1,5 +1,4 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { Component } from 'react';
+import React, { Component} from 'react';
 import { Link } from "react-router-dom";
 import Project1 from './images/project/1.jpg';
 import Project2 from './images/project/2.jpg';
@@ -9,6 +8,7 @@ import Project5 from './images/project/5.jpg';
 import Project6 from './images/project/6.jpg';
 
 class ProjectGrid extends Component {
+
     render() {
         return (
             <div className="portfolio gallery-grid">
@@ -25,12 +25,13 @@ class ProjectGrid extends Component {
                                     <figure className="portfolio-item gallery-caption">
                                         <img src={Project5} alt=""/>
                                         <div className="hover-view">
-                                            <Link to="/"><i className="fa fa-picture-o"></i></Link>
+                                            <a href={Project5} target="_blank"><i className="fa fa-picture-o"></i></a>
                                             <span className="border-one"></span>
                                             <span className="border-two"></span>
                                             <span className="border-three"></span>
                                             <span className="border-four"></span>
                                         </div>
+                                        
                                     </figure>
                                 </li>
                                 <li className="col-lg-4 col-sm-6" data-groups='["people"]'>

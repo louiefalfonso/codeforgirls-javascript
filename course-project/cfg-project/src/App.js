@@ -21,9 +21,10 @@ import FAQ from "./components/Faq";
 import Pricing from "./components/Pricing";
 import ContactUs from "./components/Contactus";
 import OffCanvasView from './components/OffCanvasView';
-
+import TopArrow from "./components/TopArrow";
 
 function App() {
+  
   return (
     <div className="App">
       <MainHeader/>
@@ -39,6 +40,7 @@ function App() {
       </Routes>
       <MainFooter/>
       <OffCanvasView/>
+      <TopArrow/>
     </div>
   );
 }

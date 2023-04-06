@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
+import SubscribeSection from './SubscribeSection';
+import GalleryHeader from './GalleryHeader';
+import ProjectSection from './ProjectSection';
 
 class Gallery extends Component {
     render() {
         return (
-            <div>
-                <h2>Gallery Page</h2>
+            <>
+                <div className="aboutPage">
+                <GalleryHeader/>
+                <ProjectSection/>
+                <SubscribeSection/>
             </div>
+            </>
         );
     }
 }
