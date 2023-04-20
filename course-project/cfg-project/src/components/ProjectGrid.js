@@ -38,7 +38,7 @@ class ProjectGrid extends Component {
                                     <figure className="portfolio-item gallery-caption">
                                         <img src={Project2} alt=""/>
                                         <div className="hover-view">
-                                            <Link to="/"><i className="fa fa-picture-o"></i></Link>
+                                            <a href={Project2} target="_blank"><i className="fa fa-picture-o"></i></a>
                                             <span className="border-one"></span>
                                             <span className="border-two"></span>
                                             <span className="border-three"></span>
@@ -50,7 +50,7 @@ class ProjectGrid extends Component {
                                     <figure className="portfolio-item gallery-caption">
                                         <img src={Project4} alt=""/>
                                         <div className="hover-view">
-                                            <Link to="/"><i className="fa fa-picture-o"></i></Link>
+                                        <a href={Project4} target="_blank"><i className="fa fa-picture-o"></i></a>
                                             <span className="border-one"></span>
                                             <span className="border-two"></span>
                                             <span className="border-three"></span>
@@ -62,7 +62,7 @@ class ProjectGrid extends Component {
                                     <figure className="portfolio-item gallery-caption">
                                         <img src={Project3} alt=""/>
                                         <div className="hover-view">
-                                            <Link to="/"><i className="fa fa-picture-o"></i></Link>
+                                        <a href={Project3} target="_blank"><i className="fa fa-picture-o"></i></a>
                                             <span className="border-one"></span>
                                             <span className="border-two"></span>
                                             <span className="border-three"></span>
@@ -74,8 +74,7 @@ class ProjectGrid extends Component {
                                     <figure className="portfolio-item gallery-caption">
                                         <img src={Project1} alt=""/>
                                         <div className="hover-view">
-                                            <Link to="/"><i className="fa fa-picture-o"></i></Link>
-                                            <span className="border-one"></span>
+                                        <a href={Project1} target="_blank"><i className="fa fa-picture-o"></i></a>                                            <span className="border-one"></span>
                                             <span className="border-two"></span>
                                             <span className="border-three"></span>
                                             <span className="border-four"></span>
@@ -86,7 +85,7 @@ class ProjectGrid extends Component {
                                     <figure className="portfolio-item gallery-caption">
                                         <img src={Project6} alt=""/>
                                         <div className="hover-view">
-                                            <Link to="/"><i className="fa fa-picture-o"></i></Link>
+                                        <a href={Project6} target="_blank"><i className="fa fa-picture-o"></i></a>
                                             <span className="border-one"></span>
                                             <span className="border-two"></span>
                                             <span className="border-three"></span>

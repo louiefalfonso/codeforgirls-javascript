@@ -69,7 +69,7 @@ class PricingContent extends Component {
                                     <div className="row">
                                         <div className="col-sm-6">
                                             <div className="priceing-table">
-                                                <h4>Basic</h4>
+                                                <h4>Basic Maintenance</h4>
                                                 <h5 className="amount">$55</h5>
                                                 <p>Basic garden maintenance service includes the following procedures:</p>
 
@@ -91,7 +91,7 @@ class PricingContent extends Component {
 
                                         <div className="col-sm-6">
                                             <div className="priceing-table">
-                                                <h4>Premium</h4>
+                                                <h4>Premium Maintenance</h4>
                                                 <h5 className="amount">$95</h5>
                                                 <p>Basic garden maintenance service includes the following procedures:</p>
 
@@ -116,7 +116,7 @@ class PricingContent extends Component {
                                     <div className="row">
                                         <div className="col-sm-6">
                                             <div className="priceing-table">
-                                                <h4>Premium</h4>
+                                                <h4>Premium Landscaping</h4>
                                                 <h5 className="amount">$65</h5>
                                                 <p>Basic garden maintenance service includes the following procedures:</p>
 
@@ -138,7 +138,7 @@ class PricingContent extends Component {
 
                                         <div className="col-sm-6">
                                             <div className="priceing-table">
-                                                <h4>Basic</h4>
+                                                <h4>Basic Landscaping</h4>
                                                 <h5 className="amount">$55</h5>
                                                 <p>Basic garden maintenance service includes the following procedures:</p>
 
@@ -163,7 +163,7 @@ class PricingContent extends Component {
                                     <div className="row">
                                         <div className="col-sm-6">
                                             <div className="priceing-table">
-                                                <h4>Basic</h4>
+                                                <h4>Basic Lawn Care</h4>
                                                 <h5 className="amount">$55</h5>
                                                 <p>Basic garden maintenance service includes the following procedures:</p>
 
@@ -185,7 +185,7 @@ class PricingContent extends Component {
 
                                         <div className="col-sm-6">
                                             <div className="priceing-table">
-                                                <h4>Premium</h4>
+                                                <h4>Premium Lawn Care</h4>
                                                 <h5 className="amount">$95</h5>
                                                 <p>Basic garden maintenance service includes the following procedures:</p>
 
@@ -210,7 +210,7 @@ class PricingContent extends Component {
                                     <div className="row">
                                         <div className="col-sm-6">
                                             <div className="priceing-table">
-                                                <h4>Basic</h4>
+                                                <h4>Basic Tree Surgery</h4>
                                                 <h5 className="amount">$55</h5>
                                                 <p>Basic garden maintenance service includes the following procedures:</p>
 
@@ -232,7 +232,7 @@ class PricingContent extends Component {
 
                                         <div className="col-sm-6">
                                             <div className="priceing-table">
-                                                <h4>Premium</h4>
+                                                <h4>Premium Tree Surgery</h4>
                                                 <h5 className="amount">$95</h5>
                                                 <p>Basic garden maintenance service includes the following procedures:</p>
 
@@ -257,7 +257,7 @@ class PricingContent extends Component {
                                     <div className="row">
                                         <div className="col-sm-6">
                                             <div className="priceing-table">
-                                                <h4>Basic</h4>
+                                                <h4>Basic Outdoor Repairs</h4>
                                                 <h5 className="amount">$55</h5>
                                                 <p>Basic garden maintenance service includes the following procedures:</p>
 
@@ -279,7 +279,7 @@ class PricingContent extends Component {
 
                                         <div className="col-sm-6">
                                             <div className="priceing-table">
-                                                <h4>Premium</h4>
+                                                <h4>Premium Outdoor Repairs</h4>
                                                 <h5 className="amount">$95</h5>
                                                 <p>Basic garden maintenance service includes the following procedures:</p>
 

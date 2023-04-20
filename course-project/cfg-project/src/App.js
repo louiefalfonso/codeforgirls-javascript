@@ -8,7 +8,6 @@ import './components/css/offcanvas-menu.css';
 import './components/css/responsive.css';
 import './components/css/accordion.css';
 
-
 import { Route, Routes } from "react-router-dom"
 import MainHeader from './components/MainHeader';
 import MainFooter from './components/MainFooter';
@@ -20,11 +19,9 @@ import Gallery from "./components/Gallery";
 import FAQ from "./components/Faq";
 import Pricing from "./components/Pricing";
 import ContactUs from "./components/Contactus";
-import OffCanvasView from './components/OffCanvasView';
 import TopArrow from "./components/TopArrow";
 
 function App() {
-  
   return (
     <div className="App">
       <MainHeader/>
@@ -39,7 +36,6 @@ function App() {
         <Route path="/contactus" element={<ContactUs/>} />
       </Routes>
       <MainFooter/>
-      <OffCanvasView/>
       <TopArrow/>
     </div>
   );

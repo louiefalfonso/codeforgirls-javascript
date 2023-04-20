@@ -34,6 +34,9 @@ class ContactUsContent extends Component {
                                 <li className="wow fadeInDown" data-wow-delay="0.6s">
                                     <i className="fa fa-location-arrow" aria-hidden="true"></i>
                                     <div className="contact-wrapper">
+                                        <h5>Main Office:</h5>
+                                        <span className="sub">Royal Botanic Garden Edinburgh<br/>
+                                        Arboretum Pl, Edinburgh EH3 5NZ</span><br/><br/>
                                         <h5>Office:</h5>
                                         <span className="sub">1386 London Road SS9 2UJ</span>
                                     </div>
